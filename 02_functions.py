@@ -1,7 +1,13 @@
-def test(a, b):
-    return (a * 2 + b * 4) ** 2
-res = test(5, 6)
-print(res)
+def test():
+    a = 5
+    b = 3
+    if a > 4:
+       print('res_a =', a)
+    if b < 4:
+        print('res_b =', b)
+    else:
+      print('Выход')
+test()
 
 def test2(a, b, c):
     for res in a, b, c:
